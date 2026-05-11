@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36">
+  <diagram name="Страница — 1" id="hwBk4qruL86axvCHu3Sq">
+    <mxGraphModel dx="1698" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-113" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=light-dark(#000000, #1d293b);strokeColor=light-dark(#000000,#5C79A3);fontSize=14;fontColor=light-dark(#ffffff, #ededed);" value="Крупье" vertex="1">
+          <mxGeometry height="213" width="280" x="1550" y="3390" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-114" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Ф.И.О: String" vertex="1">
+          <mxGeometry height="25" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-115" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Номер телефона: String" vertex="1">
+          <mxGeometry height="25" width="280" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-116" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Эл-почта: String" vertex="1">
+          <mxGeometry height="25" width="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-117" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Должность: String" vertex="1">
+          <mxGeometry height="25" width="280" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-118" parent="rVdxsa0aPLLzR4IACmYn-113" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-119" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="+ Регистрация ставок(): String" vertex="1">
+          <mxGeometry height="25" width="280" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-120" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="+ Чтение данных из БД(): void" vertex="1">
+          <mxGeometry height="25" width="280" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-121" parent="rVdxsa0aPLLzR4IACmYn-113" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="+ Обновление данных в БД(): void" vertex="1">
+          <mxGeometry height="25" width="280" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-122" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=light-dark(#000000, #1f2f1e);strokeColor=light-dark(#000000, #446e2c);fontSize=14;fontColor=light-dark(#ffffff, #ededed);" value="Игрок" vertex="1">
+          <mxGeometry height="163" width="280" x="1880" y="3390" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-123" parent="rVdxsa0aPLLzR4IACmYn-122" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Ф.И.О: String" vertex="1">
+          <mxGeometry height="25" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-124" parent="rVdxsa0aPLLzR4IACmYn-122" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Номер телефона: String" vertex="1">
+          <mxGeometry height="25" width="280" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-125" parent="rVdxsa0aPLLzR4IACmYn-122" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="- Эл-почта: String" vertex="1">
+          <mxGeometry height="25" width="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-126" parent="rVdxsa0aPLLzR4IACmYn-122" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-127" parent="rVdxsa0aPLLzR4IACmYn-122" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="+ Регистрация(): void" vertex="1">
+          <mxGeometry height="25" width="280" y="113" as="geometry" />
+        </mxCell>
+        <mxCell id="rVdxsa0aPLLzR4IACmYn-128" parent="rVdxsa0aPLLzR4IACmYn-122" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="+ Создание запроса ставки(): String" vertex="1">
+          <mxGeometry height="25" width="280" y="138" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
